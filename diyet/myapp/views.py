@@ -15,7 +15,8 @@ def list(request):
     return HttpResponse('list')
 
 def getProductsByCategoryID(request,category):
-    return HttpResponse(category)
+    #return HttpResponse(category)
+    return HttpResponse
 
 def getProductsByCategory(request,category):
     category_text=None
